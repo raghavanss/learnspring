@@ -2,12 +2,21 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans    
-	 http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
-	
+	 http://www.springframework.org/schema/beans/spring-beans-4.3.xsd"
+	default-init-method="init" default-destroy-method="destroy">
+
 	<bean id="helloWorld" class="com.tutorial.learnspring.HelloWorld">
-		<property name="message" value="Hello World!" />
+		<property name="message1" value="Parent Message 1" />
+		<property name="message2" value="Parent Message 2" />
+	</bean>
+	
+	<bean id="helloIndia" class="com.tutorial.learnspring.HelloIndia"
+		parent="helloWorld">
+		<property name="message1" value="Child Message1" />
+		<property name="message3" value="Child Message3" />
 
 	</bean>
+	<bean class="com.tutorial.learnspring.InitHelloWorld" />
 
 </beans>
 	
