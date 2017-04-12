@@ -1,5 +1,4 @@
-[
-{"args":{"number":4},"cat":"__metadata","name":"num_cpus","ph":"M","pid":4656,"tid":0,"ts":0},
+[{"args":{"number":4},"cat":"__metadata","name":"num_cpus","ph":"M","pid":4656,"tid":0,"ts":0},
 {"args":{"sort_index":-1},"cat":"__metadata","name":"process_sort_index","ph":"M","pid":4656,"tid":19459,"ts":0},
 {"args":{"name":"GPU Process"},"cat":"__metadata","name":"process_name","ph":"M","pid":4656,"tid":19459,"ts":0},
 {"args":{"number":4},"cat":"__metadata","name":"num_cpus","ph":"M","pid":4659,"tid":0,"ts":0},
@@ -4433,5 +4432,4 @@
 {"args":{"number":4},"cat":"__metadata","name":"num_cpus","ph":"M","pid":4650,"tid":0,"ts":0},
 {"args":{"sort_index":-6},"cat":"__metadata","name":"process_sort_index","ph":"M","pid":4650,"tid":34051,"ts":0},
 {"args":{"name":"Browser"},"cat":"__metadata","name":"process_name","ph":"M","pid":4650,"tid":34051,"ts":0},
-{"args":{"name":"CrBrowserMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":4650,"tid":775,"ts":0}
-]
+{"args":{"name":"CrBrowserMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":4650,"tid":775,"ts":0}]
